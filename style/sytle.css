@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+:root {
+    /* Paleta de cores */
+    --cor: #ffffff;
+    --cor0: #000000;
+    --cor1: #34401A;
+    --cor2: #64732F;
+    --cor3: #CAD959;
+    --cor4: #B4BF5E;
+    --cor5: #252617;
+    /* Fontes */
+    --font: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* padrão */
+html {
+    font-size: 62.5%;
+}
+body {
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.screen {
+    width: 32rem;
+    height: 60rem;
+    border: .2rem solid var(--cor0);
+    position: relative;
+}
+.header {
+    background-color: var(--cor4);
+    height: 6.5rem;
+}
+button {
+    cursor: pointer;
+}
+.screen button i {
+    position: absolute;
+    font-size: 3.5rem;
+    right: 5%;
+    top: 2%;
+}
+.menu {
+    position: relative;
+    font-size: 5rem;
+    text-align: center;
+    line-height: 8rem;
+    background-color: var(--cor2);
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: var(--cor3);
+}
+.active {
+    z-index: -1;
+    opacity: 0%;
+}
