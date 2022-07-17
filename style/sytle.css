@@ -10,7 +10,7 @@
     --cor4: #B4BF5E;
     --cor5: #252617;
     /* Fontes */
-    --font: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    --font0: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 /* reset */
 * {
@@ -28,6 +28,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: var(--font0);
 }
 .screen {
     width: 32rem;
@@ -53,6 +54,7 @@ button {
     font-size: 5rem;
     text-align: center;
     line-height: 8rem;
+    margin-top: 6rem;
     background-color: var(--cor2);
 }
 li {
