@@ -35,10 +35,13 @@ body {
     height: 60rem;
     border: .2rem solid var(--cor0);
     position: relative;
+    border-radius: 2rem;
+    background-color: var(--cor1);
 }
 .header {
     background-color: var(--cor4);
-    height: 6.5rem;
+    height: 11%;
+    border-radius: 2rem 2rem 0rem 0rem;
 }
 button {
     cursor: pointer;
@@ -49,22 +52,32 @@ button {
     right: 5%;
     top: 2%;
 }
+button i:hover {
+    color: var(--cor);
+}
 .menu {
     position: relative;
     font-size: 5rem;
     text-align: center;
     line-height: 8rem;
-    margin-top: 6rem;
-    background-color: var(--cor2);
+    background-color: var(--cor4);
+    height: 89%;
+    border-radius: 0rem 0rem 2rem 2rem;
 }
 li {
     list-style: none;
 }
 a {
     text-decoration: none;
-    color: var(--cor3);
+    color: var(--cor1);
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: underline;
+    color: var(--cor5);
 }
 .active {
     z-index: -1;
     opacity: 0%;
+    visibility: hidden;
 }
